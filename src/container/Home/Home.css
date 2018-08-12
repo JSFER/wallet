@@ -1,0 +1,68 @@
+#Home {
+    & .home-banner {
+        height: 440px;
+        background: url('../../images/home_banner.png');
+        background-position-x: center;
+        min-width: 1200px;
+    }
+
+    & .line {
+        position: relative;
+        width: 1000px;
+        height: 3px;
+        margin: 80px auto 40px;
+        background: rgb(222, 222, 222);
+        text-align: center;
+
+        & .text {
+            position: absolute;
+            display: inline-block;
+            background: #fff;
+            padding: 15px;
+            font-size: 25px;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    & .banners{
+        overflow: hidden;
+        width: 1200px;
+        margin: 0 auto;
+
+        & img{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+
+        & .left{
+            float: left;
+            width: 380px;
+            height: 430px;
+        }
+
+        & .box{
+            float: left;
+            box-sizing: border-box;
+            width: 390px;
+            height: 210px;
+            margin-left: 20px;
+        }
+    
+        & .box:nth-child(3),
+        & .box:nth-child(4)
+        {
+            margin-top: 10px;
+        }
+    }
+
+    & .companies{
+        height: 132px;
+        width: 1200px;
+        margin: 0 auto;
+        background: url(../../images/companies.png);
+        background-position-x: center;
+    }
+}
