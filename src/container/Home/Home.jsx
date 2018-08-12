@@ -3,6 +3,7 @@ import React from 'react'
 
 // components
 import Header from '@src/component/Header/Header'
+import Footer from '@src/component/Footer/Footer'
 
 // images
 import imgCheetah from '@src/images/cheetah.png'
@@ -80,6 +81,7 @@ export default class Home extends React.PureComponent {
                     <span className="text">合作伙伴</span>
                 </div>
                 <div className="companies"></div>
+                <Footer />
             </div>
         )
     }
