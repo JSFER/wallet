@@ -1,5 +1,5 @@
 @import './reset.css';
 
-#App{
-    min-height: calc(100vh - 200)
+.g-page{
+    min-height: calc(100vh - 320px)
 }

@@ -1,0 +1,8 @@
+#AdvHost{
+    & .banner{
+        height: 300px;
+        background: url('../../images/advhost_banner.png');
+        background-position-x: center;
+        min-width: 1200px;
+    }
+}
