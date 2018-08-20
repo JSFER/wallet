@@ -12,6 +12,8 @@
 
         & td{
             vertical-align: top;
+            text-align: center;
+            padding: 10px 0;
 
             & .title{
                 color: #666;
@@ -22,8 +24,9 @@
                 display: inline-block;
                 color: #434343;
                 font-size: 18px;
-                width: 200px;
+                width: 300px;
                 text-align: left;
+                line-height: 25px;
             }
         }
     }
