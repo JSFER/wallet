@@ -74,6 +74,9 @@ export default class AdvHost extends React.PureComponent {
                         </tbody>
                     </table>
                 </div>
+                <div className="banner-bottom">
+                    <div className="img"></div>
+                </div>
                 <Footer />
             </div>
         )
