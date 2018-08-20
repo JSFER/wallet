@@ -5,4 +5,26 @@
         background-position-x: center;
         min-width: 1200px;
     }
+
+    & .table{
+        width: 1200px;
+        margin: 50px auto;
+
+        & td{
+            vertical-align: top;
+
+            & .title{
+                color: #666;
+                font-size: 20px;
+            }
+
+            & .text{
+                display: inline-block;
+                color: #434343;
+                font-size: 18px;
+                width: 200px;
+                text-align: left;
+            }
+        }
+    }
 }
