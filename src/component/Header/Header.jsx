@@ -26,7 +26,7 @@ class Header extends React.Component {
                         <NavLink isActive={this.isActive} to="/websitehost">网站主</NavLink>
                     </div>
                     <div className="tab">
-                        <NavLink isActive={this.isActive} to="/about">关于我们</NavLink>
+                        <NavLink isActive={this.isActive} to="/about/nav1">关于我们</NavLink>
                     </div>
                 </div>
             </div>

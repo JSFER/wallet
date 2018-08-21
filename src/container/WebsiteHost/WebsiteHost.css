@@ -1,0 +1,45 @@
+#WebsiteHost{
+    & .banner{
+        height: 300px;
+        background: url('../../images/banner3.png');
+        background-position-x: center;
+        min-width: 1200px;
+    }
+
+    & .table{
+        width: 1200px;
+        margin: 50px auto;
+
+        & td{
+            vertical-align: top;
+            text-align: center;
+            padding: 20px 0;
+
+            & .title{
+                color: #666;
+                font-size: 20px;
+            }
+
+            & .text{
+                display: inline-block;
+                color: #434343;
+                font-size: 18px;
+                width: 300px;
+                text-align: left;
+                line-height: 25px;
+            }
+        }
+    }
+
+    & .banner-bottom{
+        background: #efeeef;
+
+        & .img{
+            background: url('../../images/bottom.png');
+            background-position-x: center;
+            min-width: 1200px;
+            height: 210px;
+            background-repeat: no-repeat;
+        }
+    }
+}

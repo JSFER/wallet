@@ -1,0 +1,65 @@
+#About{
+    & .banner{
+        height: 300px;
+        background: url('../../images/banner4.png');
+        background-position-x: center;
+        min-width: 1200px;
+    }
+
+    & .buttons{
+        width: 1200px;
+        margin: 100px auto 0;
+
+        & .btn{
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            background: #69a1ff;
+            line-height: 38px;
+            padding: 0 20px;
+            margin-left: 60px;
+        }
+
+        & .btn::before{
+            position: absolute;
+            content: '';
+            width: 38px;
+            height: 38px;
+            background: #69a1ff;
+            border-radius: 50%;
+            left: -19px;
+            top: 0;
+        }
+
+        & .btn::after{
+            position: absolute;
+            content: '';
+            width: 38px;
+            height: 38px;
+            background: #69a1ff;
+            border-radius: 50%;
+            right: -19px;
+            top: 0;
+        }
+    }
+
+    & .nav{
+        width: 1200px;
+        margin: 50px auto;
+        overflow: hidden;
+
+        & img{
+            float: left;
+            width: 385px;
+            height: 220px;
+        }
+
+        & .text{
+            box-sizing: border-box;
+            color: #666;
+            line-height: 25px;
+            padding-left: 420px;
+            padding-top: 30px;
+        }
+    }
+}

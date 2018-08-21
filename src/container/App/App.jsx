@@ -15,7 +15,7 @@ class App extends React.PureComponent {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/advhost" component={AdvHost} />
                     <Route exact path="/websitehost" component={WebsiteHost} />
-                    <Route exact path="/about" component={About} />
+                    <Route path="/about" component={About} />
                 </div>
             </Router>
         )
