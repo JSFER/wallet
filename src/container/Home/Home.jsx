@@ -6,15 +6,15 @@ import Header from '@src/component/Header/Header'
 import Footer from '@src/component/Footer/Footer'
 
 // images
-import imgCheetah from '@src/images/cheetah.png'
-import imgSougou from '@src/images/sougou.png'
-import imgSougouHover from '@src/images/sougou_hover.png'
-import imgUC from '@src/images/uc.png'
-import imgUCHover from '@src/images/uc_hover.png'
-import imgGaode from '@src/images/gaode.png'
-import imgGaodeHover from '@src/images/gaode_hover.png'
-import imgBaidu from '@src/images/baidu.png'
-import imgBaiduHover from '@src/images/baidu_hover.png'
+const imgCheetah = '//pdxzogn6s.bkt.clouddn.com/cheetah.png'
+const imgSougou = '//pdxzogn6s.bkt.clouddn.com/sougou.png'
+const imgSougouHover = '//pdxzogn6s.bkt.clouddn.com/sougou_hover.png'
+const imgUC = '//pdxzogn6s.bkt.clouddn.com/uc.png'
+const imgUCHover = '//pdxzogn6s.bkt.clouddn.com/uc_hover.png'
+const imgGaode = '//pdxzogn6s.bkt.clouddn.com/gaode.png'
+const imgGaodeHover = '//pdxzogn6s.bkt.clouddn.com/gaode_hover.png'
+const imgBaidu = '//pdxzogn6s.bkt.clouddn.com/baidu.png'
+const imgBaiduHover = '//pdxzogn6s.bkt.clouddn.com/baidu_hover.png'
 
 export default class Home extends React.PureComponent {
     state = {

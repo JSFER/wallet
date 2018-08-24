@@ -7,9 +7,9 @@ import Header from '@src/component/Header/Header'
 import Footer from '@src/component/Footer/Footer'
 
 // images
-import imgNav1 from '@src/images/contactUs.png'
-import imgNav2 from '@src/images/nav2.jpg'
-import imgNav3 from '@src/images/nav3.jpg'
+const imgNav1 = '//pdxzogn6s.bkt.clouddn.com/contactUs.png'
+const imgNav2 = '//pdxzogn6s.bkt.clouddn.com/nav2.jpg'
+const imgNav3 = '//pdxzogn6s.bkt.clouddn.com/nav3.jpg'
 
 @withRouter
 export default class About extends React.PureComponent {

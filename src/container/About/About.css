@@ -1,7 +1,7 @@
 #About{
     & .banner{
         height: 300px;
-        background: url('../../images/banner4.png');
+        background: url('//pdxzogn6s.bkt.clouddn.com/banner4.png');
         background-position-x: center;
         min-width: 1200px;
     }
@@ -18,6 +18,10 @@
             line-height: 38px;
             padding: 0 20px;
             margin-left: 60px;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
 
         & .btn::before{

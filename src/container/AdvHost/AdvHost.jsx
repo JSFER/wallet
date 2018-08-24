@@ -6,10 +6,10 @@ import Header from '@src/component/Header/Header'
 import Footer from '@src/component/Footer/Footer'
 
 // images
-import imgLeft1 from '@src/images/left1.png'
-import imgLeft2 from '@src/images/left2.png'
-import imgRight1 from '@src/images/right1.png'
-import imgRight2 from '@src/images/right2.png'
+const imgLeft1 = '//pdxzogn6s.bkt.clouddn.com/left1.png'
+const imgLeft2 = '//pdxzogn6s.bkt.clouddn.com/left2.png'
+const imgRight1 = '//pdxzogn6s.bkt.clouddn.com/right1.png'
+const imgRight2 = '//pdxzogn6s.bkt.clouddn.com/right2.png'
 
 export default class AdvHost extends React.PureComponent {
     render() {

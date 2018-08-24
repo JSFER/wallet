@@ -6,10 +6,10 @@ import Header from '@src/component/Header/Header'
 import Footer from '@src/component/Footer/Footer'
 
 // images
-import imgLeft1 from '@src/images/left31.png'
-import imgLeft2 from '@src/images/left32.png'
-import imgRight1 from '@src/images/right31.png'
-import imgRight2 from '@src/images/right32.png'
+const imgLeft1 = '//pdxzogn6s.bkt.clouddn.com/left31.png'
+const imgLeft2 = '//pdxzogn6s.bkt.clouddn.com/left32.png'
+const imgRight1 = '//pdxzogn6s.bkt.clouddn.com/right31.png'
+const imgRight2 = '//pdxzogn6s.bkt.clouddn.com/right32.png'
 
 export default class WebsiteHost extends React.PureComponent {
     render() {

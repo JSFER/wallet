@@ -1,7 +1,7 @@
 #WebsiteHost{
     & .banner{
         height: 300px;
-        background: url('../../images/banner3.png');
+        background: url('//pdxzogn6s.bkt.clouddn.com/banner3.png');
         background-position-x: center;
         min-width: 1200px;
     }
@@ -35,7 +35,7 @@
         background: #efeeef;
 
         & .img{
-            background: url('../../images/bottom.png');
+            background: url('//pdxzogn6s.bkt.clouddn.com/bottom.png');
             background-position-x: center;
             min-width: 1200px;
             height: 210px;
