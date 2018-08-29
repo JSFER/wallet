@@ -1,7 +1,7 @@
 import './Header.css'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-const imgLogo = '//pdxzogn6s.bkt.clouddn.com/logo.png'
+const imgLogo = '//pdxzogn6s.bkt.clouddn.com/logo2.png'
 
 class Header extends React.Component {
     isActive(match, location) {
